@@ -14,7 +14,7 @@ LIFred is a highly customizable workflow for [Alfred][1] to control your [LIFX][
 * Import the workflow into [Alfred][8] by double clicking it
 * Get a LIFX client token
 	* Go to [https://cloud.lifx.com/settings/][9] and generate a new token
-	* Make sure to copy it to your clipboard.
+	* Make sure to copy it to your clipboard
 * Open [Alfred][10] and type „configure lifred“
 * Paste your client token
 * Select „Set Client Token“ and press Enter
