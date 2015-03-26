@@ -35,7 +35,7 @@ LIFred is a highly customizable workflow for [Alfred][1] to control your [LIFX][
 | Show/Hide Refresh Bulbs | Shows/Hides the function to refresh all bulbs. |
 | More Information | Redirects you to a website that gives you more information about this workflow. |
 
-## Use LIFred
+## Using LIFred
 ### LIFred itself
 * Type „lifred“ to show all actions
 	* If you want to use any action that needs a color as parameter, just enter the color separated by a space
@@ -50,7 +50,7 @@ All possible color options are listed here: [http://developer.lifx.com/#colors][
 * Show the items you need
 * Hide the items you do not need (all are shown by default)
 ## Contact
-If you have any problems send me an email: [christian.bieg@bieg-software.de][12]
+If you have any problems send me an email: [support@bieg-software.de][12]
 
 [1]:	http://www.alfredapp.com "Alfred"
 [2]:	http://lifx.co "LIFX"
@@ -63,6 +63,6 @@ If you have any problems send me an email: [christian.bieg@bieg-software.de][12]
 [9]:	https://cloud.lifx.com
 [10]:	http://www.alfredapp.com "Alfred"
 [11]:	http://developer.lifx.com/#colors
-[12]:	mailto:christian.bieg@bieg-software.de
+[12]:	mailto:support@bieg-software.de
 
 [image-1]:	https://raw.github.com/0x6368/LIFred/master/screenshots/LIFred.png
