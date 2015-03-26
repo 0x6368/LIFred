@@ -1,0 +1,33 @@
+GEM
+  remote: https://rubygems.org/
+  specs:
+    addressable (2.3.7)
+    alfred-workflow (2.0.5)
+      fuzzy_match (>= 2.0.4)
+      gyoku (>= 1.1.0)
+      moneta (>= 0.7.19)
+      nori (>= 2.3.0)
+      plist (>= 3.1.0)
+      terminal-notifier (>= 1.5.0)
+    builder (3.2.2)
+    curb (0.8.7)
+    fuzzy_match (2.1.0)
+    gyoku (1.2.3)
+      builder (>= 2.1.2)
+    json (1.8.2)
+    launchy (2.4.3)
+      addressable (~> 2.3)
+    moneta (0.8.0)
+    nori (2.4.0)
+    plist (3.1.0)
+    terminal-notifier (1.6.2)
+
+PLATFORMS
+  ruby
+
+DEPENDENCIES
+  alfred-workflow
+  curb
+  json
+  launchy
+  plist
