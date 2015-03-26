@@ -1,5 +1,6 @@
 # LIFred
 LIFred is a highly customizable workflow for [Alfred][1] to control your [LIFX][2] smart bulbs from anywhere in the world.
+
 ![LIFred][image-1]
 
 ## Requirements
@@ -40,10 +41,16 @@ LIFred is a highly customizable workflow for [Alfred][1] to control your [LIFX][
 	* If you want to use any action that needs a color as parameter, just enter the color separated by a space
 * Press enter to execute the action
 * You will receive a notification to check if the action was executed successfully.
+* Select „Refresh Bulbs“ if you added a bulb or the any of your bulbs is not in the list.
+
+#### Color options
+All possible color options are listed here: [http://developer.lifx.com/#colors][11]
 ### LIFred configuration
  * Type „configure lifred“
 * Show the items you need
 * Hide the items you do not need (all are shown by default)
+## Contact
+If you have any problems send me an email: [christian.bieg@bieg-software.de][12]
 
 [1]:	http://www.alfredapp.com "Alfred"
 [2]:	http://lifx.co "LIFX"
@@ -55,5 +62,7 @@ LIFred is a highly customizable workflow for [Alfred][1] to control your [LIFX][
 [8]:	http://www.alfredapp.com "Alfred"
 [9]:	https://cloud.lifx.com
 [10]:	http://www.alfredapp.com "Alfred"
+[11]:	http://developer.lifx.com/#colors
+[12]:	mailto:christian.bieg@bieg-software.de
 
 [image-1]:	https://raw.github.com/0x6368/LIFred/master/screenshots/LIFred.png
