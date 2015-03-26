@@ -49,4 +49,6 @@ def get_bulbs()
 
     return bulbs
   end
+
+  return {}
 end
