@@ -45,10 +45,12 @@ LIFred is a highly customizable workflow for [Alfred][1] to control your [LIFX][
 
 #### Color options
 All possible color options are listed here: [http://developer.lifx.com/#colors][11]
+
 ### LIFred configuration
  * Type „configure lifred“
 * Show the items you need
 * Hide the items you do not need (all are shown by default)
+
 ## Contact
 If you have any problems send me an email: [support@bieg-software.de][12]
 
