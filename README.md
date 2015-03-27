@@ -59,7 +59,7 @@ If you have any problems send me an email: [support@bieg-software.de][12]
 [3]:	http://lifx.co "LIFX"
 [4]:	http://www.alfredapp.com "Alfred"
 [5]:	http://www.alfredapp.com/powerpack/ "Alfred"
-[6]:	https://raw.github.com/0x6368/LIFred/master/LIFred.alfredworkflow "Download LIFred"
+[6]:	https://github.com/0x6368/LIFred/releases "Download LIFred"
 [7]:	http://www.alfredapp.com "Alfred"
 [8]:	http://www.alfredapp.com "Alfred"
 [9]:	https://cloud.lifx.com
