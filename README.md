@@ -15,16 +15,16 @@ LIFred is a highly customizable workflow for [Alfred][1] to control your [LIFX][
 * Get a LIFX client token
 	* Go to [https://cloud.lifx.com/settings/][9] and generate a new token
 	* Make sure to copy it to your clipboard
-* Open [Alfred][10] and type „configure lifred“
+* Open [Alfred][10] and type `configure lifred`
 * Paste your client token
-* Select „Set Client Token“ and press Enter
+* Select `Set Client Token` and press Enter
 * You should receive a notification as soon as the token was set successfully.
 
 ## LIFred Configuration
 | Title | Description |
 |-------|-------------|
 | Set Client Token | You need to enter the client token and press enter to actually set the client token. |
-| Show/Hide „all Bulbs“ entries | Shows/Hides the entries to control all bulbs. |
+| Show/Hide `all Bulbs` entries | Shows/Hides the entries to control all bulbs. |
 | Show/Hide individual Bulb entries | Shows/Hides the entries to control bulbs individually. |
 | Show/Hide Power On | Shows/Hides the function to power on any bulb. |
 | Show/Hide Power Off | Shows/Hides the function to power off any bulb. |
@@ -37,17 +37,17 @@ LIFred is a highly customizable workflow for [Alfred][1] to control your [LIFX][
 
 ## Using LIFred
 ### LIFred itself
-* Type „lifred“ to show all actions
+* Type `lifred` to show all actions
 	* If you want to use any action that needs a color as parameter, just enter the color separated by a space
 * Press enter to execute the action
 * You will receive a notification to check if the action was executed successfully.
-* Select „Refresh Bulbs“ if you added a bulb or the any of your bulbs is not in the list.
+* Select `Refresh Bulbs` if you added a bulb or the any of your bulbs is not in the list.
 
 #### Color options
 All possible color options are listed here: [http://developer.lifx.com/#colors][11]
 
 ### LIFred configuration
- * Type „configure lifred“
+ * Type `configure lifred`
 * Show the items you need
 * Hide the items you do not need (all are shown by default)
 
