@@ -15,8 +15,8 @@ LIFred is a highly customizable workflow for [Alfred][1] to control your [LIFX][
 * Get a LIFX client token
 	* Go to [https://cloud.lifx.com/settings/][9] and generate a new token
 	* Make sure to copy it to your clipboard
-* Open [Alfred][10] and type `configure lifred`
-* Paste your client token
+* Open [Alfred][10] and type `configure lifred` without pressing enter
+* Paste your client token after the command `configure lifred`
 * Select `Set Client Token` and press Enter
 * You should receive a notification as soon as the token was set successfully.
 
@@ -45,7 +45,7 @@ LIFred is a highly customizable workflow for [Alfred][1] to control your [LIFX][
 * Select `Refresh Bulbs` if you added a bulb or the any of your bulbs is not in the list.
 
 #### Color options
-All possible color options are listed here: [http://developer.lifx.com/#colors][11]
+All possible color options are listed here: [http://api.developer.lifx.com/docs/colors][11]
 
 ### LIFred configuration
  * Type `configure lifred`
@@ -63,9 +63,9 @@ If you have any problems send me an email: [support@bieg-software.de][12]
 [6]:	https://github.com/0x6368/LIFred/releases "Download LIFred"
 [7]:	http://www.alfredapp.com "Alfred"
 [8]:	http://www.alfredapp.com "Alfred"
-[9]:	https://cloud.lifx.com
+[9]:	https://cloud.lifx.com/settings/
 [10]:	http://www.alfredapp.com "Alfred"
-[11]:	http://developer.lifx.com/#colors
+[11]:	http://api.developer.lifx.com/docs/colors
 [12]:	mailto:support@bieg-software.de
 
 [image-1]:	https://raw.github.com/0x6368/LIFred/master/screenshots/LIFred.png
