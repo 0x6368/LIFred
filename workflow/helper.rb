@@ -52,3 +52,29 @@ def get_bulbs()
 
   return {}
 end
+
+def get_scenes()
+  # Check whether there is json file
+  if File.file?(SCENES_FILE_NAME)
+    # Open the file
+    file = File.open(SCENES_FILE_NAME, 'rb')
+
+    # Read the files content
+    contents = file.read.strip
+
+    # Close the file
+    file.close
+
+    # Check whether there is any content
+    if contents && contents != ''
+      # Parse the json file
+      scenes = JSON.parse(contents, {:symbolize_names => true})
+    else
+      scenes = {}
+    end
+
+    return scenes
+  end
+
+  return {}
+end

@@ -26,6 +26,7 @@ LIFred is a highly customizable workflow for [Alfred][1] to control your [LIFX][
 | Set Client Token | You need to enter the client token and press enter to actually set the client token. |
 | Show/Hide `all Bulbs` entries | Shows/Hides the entries to control all bulbs. |
 | Show/Hide individual Bulb entries | Shows/Hides the entries to control bulbs individually. |
+| Show/Hide Scenes | Shows/Hides Scenes. |
 | Show/Hide Power On | Shows/Hides the function to power on any bulb. |
 | Show/Hide Power Off | Shows/Hides the function to power off any bulb. |
 | Show/Hide Toggle | Shows/Hides the function to toggle any bulbs power state. |

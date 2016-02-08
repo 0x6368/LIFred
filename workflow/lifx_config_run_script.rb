@@ -18,7 +18,7 @@ Alfred.with_friendly_error do |alfred|
 
   # Check whether the action is valid
   if [CONFIG_SHOW_ALL_KEY, CONFIG_SHOW_INDIVIDUAL_KEY, CONFIG_SHOW_POWER_OFF_KEY, CONFIG_SHOW_POWER_ON_KEY,
-  CONFIG_SHOW_TOGGLE_KEY, CONFIG_SHOW_COLOR_KEY, CONFIG_SHOW_BREATHE_KEY, CONFIG_SHOW_PULSE_KEY, CONFIG_SHOW_REFRESH].include? action
+  CONFIG_SHOW_TOGGLE_KEY, CONFIG_SHOW_COLOR_KEY, CONFIG_SHOW_BREATHE_KEY, CONFIG_SHOW_PULSE_KEY, CONFIG_SHOW_REFRESH_KEY, CONFIG_SHOW_SCENES_KEY].include? action
     # Toggle the preference
     toggle_preference(alfred, action)
   elsif action == 'client_token'

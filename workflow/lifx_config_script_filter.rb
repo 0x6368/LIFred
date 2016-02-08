@@ -15,13 +15,14 @@ Alfred.with_friendly_error do |alfred|
 
   all_bulbs = get_preference(alfred, CONFIG_SHOW_ALL_KEY, 'yes') == 'yes'
   individual_bulbs = get_preference(alfred, CONFIG_SHOW_INDIVIDUAL_KEY, 'yes') == 'yes'
+  show_scenes = get_preference(alfred, CONFIG_SHOW_SCENES_KEY, 'yes') == 'yes'
   power_off = get_preference(alfred, CONFIG_SHOW_POWER_OFF_KEY, 'yes') == 'yes'
   power_on = get_preference(alfred, CONFIG_SHOW_POWER_ON_KEY, 'yes') == 'yes'
   toggle = get_preference(alfred, CONFIG_SHOW_TOGGLE_KEY, 'yes') == 'yes'
   breathe = get_preference(alfred, CONFIG_SHOW_BREATHE_KEY, 'yes') == 'yes'
   pulse = get_preference(alfred, CONFIG_SHOW_PULSE_KEY, 'yes') == 'yes'
   color = get_preference(alfred, CONFIG_SHOW_COLOR_KEY, 'yes') == 'yes'
-  refresh = get_preference(alfred, CONFIG_SHOW_REFRESH, 'yes') == 'yes'
+  refresh = get_preference(alfred, CONFIG_SHOW_REFRESH_KEY, 'yes') == 'yes'
 
   # Add the item to add the client token
   fb.add_item({
@@ -48,6 +49,14 @@ Alfred.with_friendly_error do |alfred|
                   :subtitle => "#{individual_bulbs ? 'Hide' : 'Show'} individual Bulb entries in general.",
                   :arg => CONFIG_SHOW_INDIVIDUAL_KEY,
                   :icon => {:type => 'default', :name => ICON_GEAR}
+              })
+              
+  # Add an item for scenes
+  fb.add_item({
+              :title => "#{show_scenes ? 'Hide' : 'Show'} Scenes",
+              :subtitle => "#{show_scenes ? 'Hide' : 'Show'} Scenes in general.",
+              :arg => CONFIG_SHOW_SCENES_KEY,
+              :icon => {:type => 'default', :name => ICON_GEAR}
               })
 
   # Add an item to power the bulb on
@@ -102,7 +111,7 @@ Alfred.with_friendly_error do |alfred|
   fb.add_item({
                   :title => "#{refresh ? 'Hide' : 'Show'} Refresh Bulbs",
                   :subtitle => "#{refresh ? 'Hide' : 'Show'} the Refresh Bulbs function.",
-                  :arg => CONFIG_SHOW_REFRESH,
+                  :arg => CONFIG_SHOW_REFRESH_KEY,
                   :icon => {:type => 'default', :name => ICON_GEAR}
               })
 
