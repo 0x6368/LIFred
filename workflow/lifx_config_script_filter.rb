@@ -107,18 +107,18 @@ Alfred.with_friendly_error do |alfred|
                   :icon => {:type => 'default', :name => ICON_GEAR}
               })
 
-  # Add an item to refresh bulbs
+  # Add the item to refresh the bulbs
   fb.add_item({
-                  :title => "#{refresh ? 'Hide' : 'Show'} Refresh Bulbs",
-                  :subtitle => "#{refresh ? 'Hide' : 'Show'} the Refresh Bulbs function.",
-                  :arg => CONFIG_SHOW_REFRESH_KEY,
+                  :title => 'Refresh Bulbs and Scenes',
+                  :subtitle => 'Refresh all your Bulbs and Scenes.',
+                  :arg => 'refresh',
                   :icon => {:type => 'default', :name => ICON_GEAR}
               })
 
   # Add an item to get more information
   fb.add_item({
                   :title => 'More Information',
-                  :subtitle => 'Press enter to find out more about this workflow.',
+                  :subtitle => 'Press Enter to find out more about this Workflow.',
                   :arg => 'more_info',
                   :icon => {:type => 'default', :name => ICON_GEAR}
               })

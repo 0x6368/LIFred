@@ -29,7 +29,6 @@ Alfred.with_friendly_error do |alfred|
     breathe = get_preference(alfred, CONFIG_SHOW_BREATHE_KEY, 'yes') == 'yes'
     pulse = get_preference(alfred, CONFIG_SHOW_PULSE_KEY, 'yes') == 'yes'
     color = get_preference(alfred, CONFIG_SHOW_COLOR_KEY, 'yes') == 'yes'
-    refresh = get_preference(alfred, CONFIG_SHOW_REFRESH_KEY, 'yes') == 'yes'
     
     version = get_preference(alfred, CONFIG_LAST_VERSION_KEY, 1.0)
     
@@ -104,7 +103,7 @@ Alfred.with_friendly_error do |alfred|
           # Add an item to set the color
           fb.add_item({
                           :title => "Set #{bulb[:label]} to Color#{(ARGV[0] == nil || ARGV[0].strip == '' ? '' : " \"#{ARGV[0]}\"")}",
-                          :subtitle => 'Samples for colors are: "random", "blue", "#ff0000"',
+                          :subtitle => 'Samples for Colors are: "random", "blue", "#ff0000"',
                           :arg => "state #{id} color #{Shellwords.escape(ARGV[0])}",
                           :valid => (ARGV[0] == nil || ARGV[0].strip == '' ? 'no' : 'yes')
                       })
@@ -115,7 +114,7 @@ Alfred.with_friendly_error do |alfred|
           # Add an item to breathe the color
           fb.add_item({
                           :title => "Breathe #{bulb[:label]} with Color#{(ARGV[0] == nil || ARGV[0].strip == '' ? '' : " \"#{ARGV[0]}\"")}",
-                          :subtitle => 'Samples for colors are: "random", "blue", "#ff0000"',
+                          :subtitle => 'Samples for Colors are: "random", "blue", "#ff0000"',
                           :arg => "breathe #{id} #{Shellwords.escape(ARGV[0])}",
                           :valid => (ARGV[0] == nil || ARGV[0].strip == '' ? 'no' : 'yes')
                       })
@@ -126,7 +125,7 @@ Alfred.with_friendly_error do |alfred|
           # Add an item to pulse the color
           fb.add_item({
                           :title => "Pulse #{bulb[:label]} with Color#{(ARGV[0] == nil || ARGV[0].strip == '' ? '' : " \"#{ARGV[0]}\"")}",
-                          :subtitle => 'Samples for colors are: "random", "blue", "#ff0000"',
+                          :subtitle => 'Samples for Colors are: "random", "blue", "#ff0000"',
                           :arg => "pulse #{id} #{Shellwords.escape(ARGV[0])}",
                           :valid => (ARGV[0] == nil || ARGV[0].strip == '' ? 'no' : 'yes')
                       })
@@ -142,16 +141,6 @@ Alfred.with_friendly_error do |alfred|
                         :arg => "activate_scene #{id}"
                     })
       }
-
-      # Check whether the user wants to see the refresh option
-      if refresh
-        # Add the item to refresh the bulbs
-        fb.add_item({
-                        :title => 'Refresh Bulbs and Scenes',
-                        :subtitle => 'Refresh all your Bulbs and Scenes.',
-                        :arg => 'refresh'
-                    })
-      end
     end
   else
     # Add the item to set the client token

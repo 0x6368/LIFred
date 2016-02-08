@@ -33,7 +33,7 @@ LIFred is a highly customizable workflow for [Alfred][1] to control your [LIFX][
 | Show/Hide Breathe | Shows/Hides the function to let any bulb breathe a given color. |
 | Show/Hide Pulse | Shows/Hides the function to let any bulb pulse a given color. |
 | Show/Hide Color | Shows/Hides the function to set any bulb to a given color. |
-| Show/Hide Refresh Bulbs | Shows/Hides the function to refresh all bulbs. |
+| Refresh Bulbs and Scenes | Refreshes all your bulbs and Scenes. |
 | More Information | Redirects you to a website that gives you more information about this workflow. |
 
 ## Using LIFred
@@ -41,7 +41,7 @@ LIFred is a highly customizable workflow for [Alfred][1] to control your [LIFX][
 * Type `lifred` to show all actions
 	* If you want to use any action that needs a color as parameter, just enter the color separated by a space
 * Press enter to execute the action
-* You will receive a notification to check if the action was executed successfully.
+* You will receive a notification to check if the action was performed successfully.
 * Select `Refresh Bulbs` if you added a bulb or the any of your bulbs is not in the list.
 
 #### Color options
