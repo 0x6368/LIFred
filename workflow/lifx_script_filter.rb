@@ -64,6 +64,9 @@ Alfred.with_friendly_error do |alfred|
       if show_scenes
         # Get the bulbs
         scenes = get_scenes()
+      else
+        # Add no bulbs
+        scenes = {}
       end
 
       # Iterate all bulbs
