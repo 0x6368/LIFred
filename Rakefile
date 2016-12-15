@@ -6,7 +6,7 @@ require 'plist'
 config_file = 'config.yml'
 
 
-workflow_home=File.expand_path("~/Library/Application Support/Alfred 2/Alfred.alfredpreferences/workflows")
+workflow_home=File.expand_path("~/Library/Application Support/Alfred 3/Alfred.alfredpreferences/workflows")
 
 $config = YAML.load_file(config_file)
 $config["bundleid"] = "#{$config["domain"]}.#{$config["id"]}"
