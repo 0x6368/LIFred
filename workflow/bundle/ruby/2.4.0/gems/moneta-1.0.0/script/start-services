@@ -1,0 +1,11 @@
+#!/bin/bash
+
+echo 'Starting TokyoTyrant'
+/usr/sbin/ttserver -dmn -pid /tmp/ttserver.pid -log /tmp/ttserver.log -port 1978
+
+# Waiting for servers to start
+sleep 3
+
+echo 'TokyoTyrant status'
+ps aux | grep ttserver
+cat /tmp/ttserver.log

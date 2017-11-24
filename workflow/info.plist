@@ -17,6 +17,8 @@
 				<integer>0</integer>
 				<key>modifiersubtext</key>
 				<string></string>
+				<key>vitoclose</key>
+				<false/>
 			</dict>
 		</array>
 		<key>500AC072-F844-4CDE-924E-3ABEA7BC363B</key>
@@ -28,6 +30,8 @@
 				<integer>0</integer>
 				<key>modifiersubtext</key>
 				<string></string>
+				<key>vitoclose</key>
+				<false/>
 			</dict>
 		</array>
 		<key>61FC97A8-4061-4B12-9B82-EFB5D97AE536</key>
@@ -39,6 +43,8 @@
 				<integer>0</integer>
 				<key>modifiersubtext</key>
 				<string></string>
+				<key>vitoclose</key>
+				<false/>
 			</dict>
 		</array>
 		<key>A1F86BB3-EC7C-4B0C-B528-C393373B8522</key>
@@ -50,6 +56,8 @@
 				<integer>0</integer>
 				<key>modifiersubtext</key>
 				<string></string>
+				<key>vitoclose</key>
+				<false/>
 			</dict>
 		</array>
 	</dict>
@@ -66,6 +74,12 @@
 		<dict>
 			<key>config</key>
 			<dict>
+				<key>alfredfiltersresults</key>
+				<false/>
+				<key>alfredfiltersresultsmatchmode</key>
+				<integer>0</integer>
+				<key>argumenttrimmode</key>
+				<integer>0</integer>
 				<key>argumenttype</key>
 				<integer>1</integer>
 				<key>escaping</key>
@@ -84,6 +98,10 @@
 				<string>waiting...</string>
 				<key>script</key>
 				<string>/usr/bin/ruby ./lifx_script_filter.rb "{query}"</string>
+				<key>scriptargtype</key>
+				<integer>0</integer>
+				<key>scriptfile</key>
+				<string></string>
 				<key>subtext</key>
 				<string>Control your LIFX smart bulbs</string>
 				<key>title</key>
@@ -98,15 +116,21 @@
 			<key>uid</key>
 			<string>500AC072-F844-4CDE-924E-3ABEA7BC363B</string>
 			<key>version</key>
-			<integer>0</integer>
+			<integer>2</integer>
 		</dict>
 		<dict>
 			<key>config</key>
 			<dict>
+				<key>concurrently</key>
+				<false/>
 				<key>escaping</key>
 				<integer>110</integer>
 				<key>script</key>
 				<string>/usr/bin/ruby ./lifx_run_script.rb {query}</string>
+				<key>scriptargtype</key>
+				<integer>0</integer>
+				<key>scriptfile</key>
+				<string></string>
 				<key>type</key>
 				<integer>0</integer>
 			</dict>
@@ -115,7 +139,7 @@
 			<key>uid</key>
 			<string>11F798A4-1E4C-4440-8177-A3F5E6AE169F</string>
 			<key>version</key>
-			<integer>0</integer>
+			<integer>2</integer>
 		</dict>
 		<dict>
 			<key>config</key>
@@ -124,11 +148,7 @@
 				<false/>
 				<key>onlyshowifquerypopulated</key>
 				<true/>
-				<key>output</key>
-				<integer>0</integer>
 				<key>removeextension</key>
-				<false/>
-				<key>sticky</key>
 				<false/>
 				<key>text</key>
 				<string>{query}</string>
@@ -140,11 +160,17 @@
 			<key>uid</key>
 			<string>3C357237-89B3-4864-81FD-C8EAB57F1958</string>
 			<key>version</key>
-			<integer>0</integer>
+			<integer>1</integer>
 		</dict>
 		<dict>
 			<key>config</key>
 			<dict>
+				<key>alfredfiltersresults</key>
+				<false/>
+				<key>alfredfiltersresultsmatchmode</key>
+				<integer>0</integer>
+				<key>argumenttrimmode</key>
+				<integer>0</integer>
 				<key>argumenttype</key>
 				<integer>1</integer>
 				<key>escaping</key>
@@ -163,6 +189,10 @@
 				<string>waiting...</string>
 				<key>script</key>
 				<string>/usr/bin/ruby ./lifx_config_script_filter.rb "{query}"</string>
+				<key>scriptargtype</key>
+				<integer>0</integer>
+				<key>scriptfile</key>
+				<string></string>
 				<key>subtext</key>
 				<string>Configure LIFred</string>
 				<key>title</key>
@@ -177,15 +207,21 @@
 			<key>uid</key>
 			<string>61FC97A8-4061-4B12-9B82-EFB5D97AE536</string>
 			<key>version</key>
-			<integer>0</integer>
+			<integer>2</integer>
 		</dict>
 		<dict>
 			<key>config</key>
 			<dict>
+				<key>concurrently</key>
+				<false/>
 				<key>escaping</key>
 				<integer>110</integer>
 				<key>script</key>
 				<string>/usr/bin/ruby ./lifx_config_run_script.rb {query}</string>
+				<key>scriptargtype</key>
+				<integer>0</integer>
+				<key>scriptfile</key>
+				<string></string>
 				<key>type</key>
 				<integer>0</integer>
 			</dict>
@@ -194,7 +230,7 @@
 			<key>uid</key>
 			<string>A1F86BB3-EC7C-4B0C-B528-C393373B8522</string>
 			<key>version</key>
-			<integer>0</integer>
+			<integer>2</integer>
 		</dict>
 	</array>
 	<key>readme</key>
@@ -203,31 +239,41 @@
 	<dict>
 		<key>11F798A4-1E4C-4440-8177-A3F5E6AE169F</key>
 		<dict>
+			<key>xpos</key>
+			<integer>500</integer>
 			<key>ypos</key>
 			<real>110</real>
 		</dict>
 		<key>3C357237-89B3-4864-81FD-C8EAB57F1958</key>
 		<dict>
+			<key>xpos</key>
+			<integer>700</integer>
 			<key>ypos</key>
 			<real>170</real>
 		</dict>
 		<key>500AC072-F844-4CDE-924E-3ABEA7BC363B</key>
 		<dict>
+			<key>xpos</key>
+			<integer>300</integer>
 			<key>ypos</key>
 			<real>110</real>
 		</dict>
 		<key>61FC97A8-4061-4B12-9B82-EFB5D97AE536</key>
 		<dict>
+			<key>xpos</key>
+			<integer>300</integer>
 			<key>ypos</key>
 			<real>230</real>
 		</dict>
 		<key>A1F86BB3-EC7C-4B0C-B528-C393373B8522</key>
 		<dict>
+			<key>xpos</key>
+			<integer>500</integer>
 			<key>ypos</key>
 			<real>230</real>
 		</dict>
 	</dict>
 	<key>webaddress</key>
-	<string>http://bieg-software.de</string>
+	<string>https://github.com/0x6368/LIFred</string>
 </dict>
 </plist>

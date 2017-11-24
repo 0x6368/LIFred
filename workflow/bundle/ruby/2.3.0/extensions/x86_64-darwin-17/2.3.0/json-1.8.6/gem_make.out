@@ -1,0 +1,13 @@
+current directory: /Users/christianbieg/Documents/Apps/LIFred/workflow/bundle/ruby/2.3.0/gems/json-1.8.6/ext/json
+/Users/christianbieg/.rvm/rubies/ruby-2.3.0/bin/ruby -r ./siteconf20171015-63053-1xpcxqe.rb extconf.rb
+creating Makefile
+
+current directory: /Users/christianbieg/Documents/Apps/LIFred/workflow/bundle/ruby/2.3.0/gems/json-1.8.6/ext/json
+make "DESTDIR=" clean
+
+current directory: /Users/christianbieg/Documents/Apps/LIFred/workflow/bundle/ruby/2.3.0/gems/json-1.8.6/ext/json
+make "DESTDIR="
+make: Nothing to be done for `all'.
+
+current directory: /Users/christianbieg/Documents/Apps/LIFred/workflow/bundle/ruby/2.3.0/gems/json-1.8.6/ext/json
+make "DESTDIR=" install

@@ -1,2 +1,0 @@
-/Applications/Server.app/Contents/ServerRoot/usr/bin/ruby extconf.rb 
-mkmf.rb can't find header files for ruby at /Applications/Server.app/Contents/ServerRoot/usr/lib/ruby/include/ruby.h

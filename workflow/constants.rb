@@ -1,6 +1,6 @@
 MORE_INFO_WEBSITE = 'http://github.com/0x6368/lifred'
 
-VERSION = 1.02
+VERSION = 1.03
 
 HTTP_API_URL = 'https://api.lifx.com/v1/';
 
