@@ -2,3 +2,4 @@ workflow/.bundle
 workflow/.idea
 /workflow/bulbs.json
 /workflow/scenes.json
+.DS_Store
