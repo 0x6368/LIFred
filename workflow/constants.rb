@@ -1,4 +1,6 @@
-MORE_INFO_WEBSITE = 'http://github.com/0x6368/lifred'
+MORE_INFO_WEBSITE = 'http://github.com/0x6368/LIFred'
+
+GITHUB_SLUG = '0x6368/LIFred'
 
 VERSION = 1.03
 

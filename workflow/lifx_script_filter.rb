@@ -11,7 +11,6 @@ require 'alfred'
 require 'json'
 require 'open-uri'
 require 'shellwords'
-from workflow import Workflow
 
 Alfred.with_friendly_error do |alfred|
   # Create the feedback
