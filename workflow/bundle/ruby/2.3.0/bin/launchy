@@ -19,9 +19,4 @@ if ARGV.first
   end
 end
 
-if Gem.respond_to?(:activate_bin_path)
-load Gem.activate_bin_path('launchy', 'launchy', version)
-else
-gem "launchy", version
-load Gem.bin_path("launchy", "launchy", version)
-end
+load Gem.bin_path('launchy', 'launchy', version)

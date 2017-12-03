@@ -15,10 +15,10 @@ Gem::Specification.new do |s|
   s.files = ["bin/fuzzy_match".freeze]
   s.homepage = "https://github.com/seamusabshere/fuzzy_match".freeze
   s.rubyforge_project = "fuzzy_match".freeze
-  s.rubygems_version = "2.6.13".freeze
+  s.rubygems_version = "2.5.2".freeze
   s.summary = "Find a needle in a haystack using string similarity and (optionally) regexp rules. Replaces loose_tight_dictionary.".freeze
 
-  s.installed_by_version = "2.6.13" if s.respond_to? :installed_by_version
+  s.installed_by_version = "2.5.2" if s.respond_to? :installed_by_version
 
   if s.respond_to? :specification_version then
     s.specification_version = 4

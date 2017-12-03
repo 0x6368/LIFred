@@ -19,9 +19,4 @@ if ARGV.first
   end
 end
 
-if Gem.respond_to?(:activate_bin_path)
-load Gem.activate_bin_path('fuzzy_match', 'fuzzy_match', version)
-else
-gem "fuzzy_match", version
-load Gem.bin_path("fuzzy_match", "fuzzy_match", version)
-end
+load Gem.bin_path('fuzzy_match', 'fuzzy_match', version)

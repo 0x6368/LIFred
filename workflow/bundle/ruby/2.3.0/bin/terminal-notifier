@@ -19,9 +19,4 @@ if ARGV.first
   end
 end
 
-if Gem.respond_to?(:activate_bin_path)
-load Gem.activate_bin_path('terminal-notifier', 'terminal-notifier', version)
-else
-gem "terminal-notifier", version
-load Gem.bin_path("terminal-notifier", "terminal-notifier", version)
-end
+load Gem.bin_path('terminal-notifier', 'terminal-notifier', version)

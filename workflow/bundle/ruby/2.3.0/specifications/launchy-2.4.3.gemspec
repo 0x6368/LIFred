@@ -17,10 +17,10 @@ Gem::Specification.new do |s|
   s.homepage = "http://github.com/copiousfreetime/launchy".freeze
   s.licenses = ["ISC".freeze]
   s.rdoc_options = ["--main".freeze, "README.md".freeze, "--markup".freeze, "tomdoc".freeze]
-  s.rubygems_version = "2.6.13".freeze
+  s.rubygems_version = "2.5.2".freeze
   s.summary = "Launchy is helper class for launching cross-platform applications in a fire and forget manner.".freeze
 
-  s.installed_by_version = "2.6.13" if s.respond_to? :installed_by_version
+  s.installed_by_version = "2.5.2" if s.respond_to? :installed_by_version
 
   if s.respond_to? :specification_version then
     s.specification_version = 4

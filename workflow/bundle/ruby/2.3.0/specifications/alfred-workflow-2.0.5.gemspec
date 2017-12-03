@@ -18,10 +18,10 @@ Gem::Specification.new do |s|
   s.licenses = ["GPL-3".freeze]
   s.rdoc_options = ["--title".freeze, "TestAlfred::TestWorkflow Documentation".freeze, "--quiet".freeze]
   s.rubyforge_project = "alfred-workflow".freeze
-  s.rubygems_version = "2.6.13".freeze
+  s.rubygems_version = "2.5.2".freeze
   s.summary = "alfred-workflow is a ruby Gem helper for building [Alfred](http://www.alfredapp.com) workflow.".freeze
 
-  s.installed_by_version = "2.6.13" if s.respond_to? :installed_by_version
+  s.installed_by_version = "2.5.2" if s.respond_to? :installed_by_version
 
   if s.respond_to? :specification_version then
     s.specification_version = 4

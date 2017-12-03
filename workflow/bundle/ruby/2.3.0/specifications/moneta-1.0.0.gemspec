@@ -16,8 +16,8 @@ Gem::Specification.new do |s|
   s.homepage = "http://github.com/minad/moneta".freeze
   s.licenses = ["MIT".freeze]
   s.required_ruby_version = Gem::Requirement.new(">= 1.9".freeze)
-  s.rubygems_version = "2.6.13".freeze
+  s.rubygems_version = "2.5.2".freeze
   s.summary = "A unified interface to key/value stores, including Redis, Memcached, TokyoCabinet, ActiveRecord and many more".freeze
 
-  s.installed_by_version = "2.6.13" if s.respond_to? :installed_by_version
+  s.installed_by_version = "2.5.2" if s.respond_to? :installed_by_version
 end
